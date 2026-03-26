@@ -1,0 +1,109 @@
+.inner {
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+
+.default {
+    padding: 120px 0;
+}
+
+.title {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.title h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.title p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+
+.header .inner {
+    display: flex;
+    align-items: center;
+    height: 96px;
+}
+
+.header .gnb {
+    margin-left: auto;
+}
+
+.header .gnb>ul {
+    display: flex;
+    gap: 48px;
+}
+
+.header .gnb>ul>li>a {
+    display: block;
+    line-height: 96px;
+}
+
+.main_visual {
+    position: relative;
+    height: calc(100vh - 96px);
+    background: url(../images/_index_bg03.jpg)
+}
+
+.main_visual .slg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main_visual .slg h2 {
+    font-size: 72px;
+    font-weight: 900;
+    color: #fff;
+    text-align: center;
+
+}
+
+.main_visual .slg p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.main_info .inner {
+    display: flex;
+    gap: 24px;
+    margin-top: 64px;
+
+}
+
+.main_info .inner .itm {
+    flex: 1;
+}
+
+.main_info .inner .itm .txt_box {
+    margin-top: 24px;
+}
+
+.main_info .inner .itm .txt_box strong {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.main_info .inner .itm .txt_box p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 16px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.footer {
+    padding: 80px;
+    background: #f7f7f7;
+}
